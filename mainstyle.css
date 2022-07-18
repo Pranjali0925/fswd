@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(tie4.webp); 
+    background-size: cover;
+    background-position: center;
+    font-family: Lucida bright;
+}
+.menubar{
+    background: transparent;
+
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: indigo;
+    font-family: Lucida bright;
+    font-weight:bolder;
+}
+.active,.menubar ul li:hover{
+    background:rgba(255, 255, 255, 0.189);
+    border-radius: 3px;
+}
+
+    li {
+        margin: 1.5vw;
+        font-size: 1.5vw !important;
+
+    }
+
+    ul {
+        list-style: none;
+        width: auto !important;
+        font-weight: 2vw !important;
+    }
+
+    .navbar {
+        background-color: pink !important;
+        font-size: 1.5vw !important;
+    }
+
+    .navbar>ul>li>a:hover {
+        font-weight: bold !important;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    @media screen and (max-width: 450px) {
+        .navbar {
+            display: initial !important;
+
+        }
+
+        .navbar>ul {
+            display: initial !important;
+            left: 25vw !important;
+            text-align: center;
+            right: 25vw !important;
+        }
+
+        section {
+            text-align: center;
+            margin-top: 0 !important;
+            width: 100vw;
+            margin: 0 !important;
+            
+            
+        }
+        
+    }
+    

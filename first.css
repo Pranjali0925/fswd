@@ -1,0 +1,133 @@
+ *{
+  padding: 0;
+  margin: 0;
+ }
+
+ .body1{
+  background: url(tie4.webp);
+  background-size :cover;
+  background-repeat:repeat;
+  
+ }
+ .wrapper{
+  width:350px;
+  height:400px;
+  color:#000;
+  top:15%;
+  left: 470px;
+  padding:40px 30px;
+  position:absolute;
+  transform:translate();
+  box-sizing:border-box;
+  box-shadow:8px 8px 50px #000;
+ }
+ h2 {
+  color:#fff;
+  text-align:center;
+  margin:0;
+  padding:0;
+  font-weight:bolder;
+  font-size: 40px;
+  font-family:Lucida bright;
+ }
+
+label{
+  color:#fff;
+  font-weight :100px;
+  font-family:berlin sans fb;
+  font-style: normal;
+  font-size: large;
+}
+.bottom-text{
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: berlin sans fb;
+}
+.wrapper input{
+  width:100%;
+  margin-bottom:20px;
+  height: 30px;
+}
+.wrapper input[type=submit]{
+  border: none;
+  outline: none;
+  height:40px;
+  background:transparent;
+  color:#fff;
+  font-size: 16px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  box-shadow:1px 1px 10px #000;
+
+}
+.wrapper input[type=submit]:hover{
+  cursor:pointer;
+}
+.wrapper input[type=password] .wrapper input[type=text]{
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  outline: none;
+  height:40px;
+  padding: 20px;
+  font-size: 30px;
+  color: #ccc;
+}
+.register{
+  width:350px;
+  height: 250px;
+  color:#000;
+  top:10%;
+  left: 470px;
+  padding:40px 30px;
+  position:absolute;
+  transform:translate();
+  box-sizing:border-box;
+  box-shadow:8px 8px 50px #000;
+ }
+
+.student input[type=submit]:hover{
+  cursor:pointer;
+}
+.student input[type=submit]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background:rgba(255, 255, 255, 0.226);
+  color:#ccc;
+  font-size: 14px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  box-shadow:1px 1px 10px #000;
+  
+
+}
+
+.student{
+  width:900px;
+  height:650px;
+  color:#ccc;
+  top:0%;
+  left: 180px;
+  position:absolute;
+  transform:translate();
+  box-sizing:border-box;
+  box-shadow:8px 8px 50px #000;
+  font-family:berlin sans fb;
+  margin: 0;
+  padding-left: 100px;
+  background:transparent;
+  background-size:auto;
+  
+}
+input,.selc {
+        width: 300px !important;
+        outline: none;
+        height: 2vw;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 1px; 
+}
+.gen {
+  width: 2vw !important;
+} 
